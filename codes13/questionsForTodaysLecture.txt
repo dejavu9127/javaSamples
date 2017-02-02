@@ -1,0 +1,11 @@
+1. Outer class has two int values a,b.
+    Create inner class with a method to print the addition of a & b.
+    Create the object of inner class in main() and test the output.
+
+2. Outer class has 2 static data members a,b.
+   Create a static inner class with swap method to swap a and b.
+   Create object of inner class in main() and test the output.
+
+3. Use wait and notify method in a simple program.
+   e.g wait for a child thread to print 1 to 50 numbers and 
+   then resume the execution of main thread.

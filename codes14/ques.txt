@@ -1,0 +1,18 @@
+1. Using var args find sum and avg of all int values passed to a method.
+
+2. Var arg for Animal references:  
+   class Animal
+	eat()
+
+    class Dog and Cat ....extends Animal
+	override eat()
+
+    static void call(Animal....a)
+	{
+		....
+		call eat method here..
+	}
+
+3. Accept one string from the user and convert it into uppercase and then print it's reverse.
+
+4. Revise String and StringBuffer methods.

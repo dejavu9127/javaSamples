@@ -1,0 +1,32 @@
+1.
+
+Create two different threads , First thread  by extending Thread class (set name -> "OddNo")
+will print first 20 odd numbers and 
+second thread  by implementing Runnable interface (set name -> "EvenNo") 
+will print first 20 even numbers. 
+
+Start the execution of both the threads and check the output.
+
+Set minimum priority for first thread and  maximum priority for second. Test the output of two threads.
+
+Use join method to terminate the main thread at the end.
+
+check the output.
+
+Use sleep method. 
+
+Change the name of main thread as "MyMainThread".
+Print the name and priority of each thread.
+
+check the output.
+
+2. Create a class Table with method printTable(int n) , which will accept int n as a parameter
+   and will print its table.
+   Create another class Caller which will extend Thread. This class has a reference 
+   of Table class and int n.
+   Use param. constructor to initialize objects.
+   Override run method and in that call printTable().
+   Create two thread objects in main using Caller class. And start the execution. see the o/p.
+	Now synchronize printTable() and again see the output.
+	Call printTable() from synchronized block and see the output.
+	Now make printTable() method as a static synchronized method and check the output again.

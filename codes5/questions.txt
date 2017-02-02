@@ -1,0 +1,23 @@
+1. Design a Class called ProductInfo  with productId , prodName , unitPrice , qty.
+	default , parameterized  constructors.
+	display method.
+	create object array and test the output.
+
+    Enter productId for searching in object array, 
+	if found , display it's name,price,qty.
+	if not found , display : "Product not found" message.
+
+2. Pass 2 numbers using command line arguments ,  use Math.max method to find the maximum value.
+
+3.  Create a class Num with two int values a,b.
+	Param Constructor , disp().
+	Create a static method swap() which will accept object of Num (call by ref),
+	to swap a & b.
+	Create object and test the output.
+
+4. Accept one number from the user and display binary,octal and hexadecimal representation of it . 
+   Using following  static methods of Integer class.
+
+   public static String toBinaryString(int i)
+   public static String toOctalString(int i)
+   public static String toHexString(int i)

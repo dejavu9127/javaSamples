@@ -1,0 +1,15 @@
+1. Simple applet using appletviewer and using .html file.
+
+2.  Test the applet life cycle methods.
+
+3.  Pass parameter to an applet with name "Msg" , with value "Welcome Friends".
+    Get this parameters value in an applet and display it in proper font.
+    set proper backcolor and forecolor.
+    Show message 'Success' in the status bar.
+    Run it using appletviewer.
+   
+
+4.  Display 3 different messages in applet in three diff fonts and colors.
+	Hint : g.setColor , g.setFont
+
+5. Use custom color and drawLine() to draw a triangle shape.
